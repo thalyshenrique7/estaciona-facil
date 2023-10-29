@@ -1,0 +1,45 @@
+.divider {
+	width: 100%;
+	margin: 20px 0;
+	border-bottom: 2px solid #c0c0c0;
+}
+
+.btn {
+	background-color: red;
+	color: white;
+	border-radius: 10px;
+}
+
+.saldo {
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.circle-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.circle {
+	border: 2px solid black;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.saldo-value {
+	font-size: 24px;
+	color: black;
+	margin-left: 10px;
+}
+
+.saldo-text {
+	font-size: 24px;
+	color: black;
+	margin-left: 10px;
+}
+

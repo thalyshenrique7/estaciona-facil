@@ -1,0 +1,40 @@
+.centered-placeholder::placeholder {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 20px;
+    width: 150px;
+}
+
+.btn-danger {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    width: 200px;
+}
+
+.btn-primary {
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    width: 200px;
+}
+
+.btn-google {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #000000;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.btn-cadastre {
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 200px;
+    border-radius: 20px;
+}
+
+

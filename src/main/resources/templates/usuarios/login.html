@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estaciona Fácil - Login</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/css/login.css">
+</head>
+<body>
+
+	<div class="container mt-5">
+		<div class="row justify-content-center align-items-center">
+			<h1 class="col-md-4 text-center">Estaciona Fácil</h1>
+		</div>
+	</div>
+
+
+	<div class="container mt-5">
+		<div class="row justify-content-center">
+			<div class="col-sm-8 col-md-6">
+				<div class="card p-4" style="border-radius: 15px; border: 2px solid;">
+					<form th:action="@{/login}" method="post">
+						<div class="form-group" style="border-radius: 15px; border: 2px solid red;">
+							<input type="text" class="form-control centered-placeholder"
+								name="username" placeholder="Insira seu e-mail ou CPF" required>
+						</div>
+						<div class="form-group" style="border-radius: 15px; border: 2px solid red;">
+							<input type="password" class="form-control centered-placeholder"
+								name="password" placeholder="Insira sua senha" required>
+						</div>
+						<div class="text-center mb-4">
+							<button type="submit" class="btn-google">Esqueci minha
+								senha</button>
+						</div>
+
+						<br> <br>
+
+						<div class="text-center mb-4">
+							<button type="submit" class="btn btn-danger">Entrar</button>
+						</div>
+						<div class="text-center mb-4">
+							<button type="submit" class="btn btn-primary">Entrar com
+								Facebook</button>
+						</div>
+						<div class="text-center mb-4">
+							<button type="submit" class="btn-google">Entrar com
+								Google</button>
+						</div>
+						<div class="text-center mb-4">
+							<button type="submit" class="btn-cadastre"
+								onclick="window.location.href='/cadastro'">Cadastre-se</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
